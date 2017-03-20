@@ -1,0 +1,106 @@
+ 
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: black;
+  }
+  p {font-size: 16px;}
+  
+  #biotext{
+	color: grey;
+}
+
+  #chattext{
+	color: grey;
+}
+
+textarea {
+   resize: none;
+}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+      padding-right: 15px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.biotext{
+	
+	color: grey;
+	
+}
+
+
+label > input[type=radio]{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input[type=radio] + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input[type=radio]:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #FFA500;
+}
+
+label > input[type=checkbox]{
+	
+display : inline;
+	
+}
+
+
+.table-responsive{
+height: 400px;
+}
+
+.tbody{
+	overflow-y:scroll;
+}
+
+
+
+
+
+
